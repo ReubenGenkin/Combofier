@@ -5,3 +5,6 @@ services:
     container_name: 'taco'
     ports: 
       - '4680:3000'
+    volumes: 
+      - './:/app'
+    
